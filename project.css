@@ -1,0 +1,247 @@
+.logo i {
+    margin-right: 1rem;
+
+}
+
+
+.nav-right {
+    width: 100%;
+    justify-content: flex-end;
+  
+    /* position:sticky; */
+  
+}
+
+
+.card {
+
+    border: none;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
+}
+
+#hero {
+    background-image: url(https://s3-us-west-1.amazonaws.com/contentlab.studiod/getty/95b7cf8c5aee49ff8fe702b98c064d67);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+#hero .content {
+    color: whitesmoke;
+text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+}
+
+#hero .content h1 {
+    font-size: 60px;
+}
+
+#hero .overlay {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: black;
+    opacity: 0.6;
+}
+
+/* about section */
+
+.about .custom-card {
+
+    border: none;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+
+
+}
+
+/* services section */
+/* 
+ .icon{
+
+margin-top: 20px;
+padding: ;
+}  */
+
+/* .services .icon i {
+ background-color: skyblue;
+ padding: 1 rem;
+border: 6px solid yellow;
+border-radius:50% ;
+} */
+
+/* .services.icon:hover i {
+ background-color: yellow;
+ padding: 1 rem;
+ border: 6px solid skyblue;
+
+}
+ */
+ 
+/* SERVICES SECTION */
+
+.services .icon {
+    height: 100px;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    background: white;
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.services .icon:hover {
+    background: #0078ff;
+    color: white;
+    border: 5px solid white;
+
+}
+
+
+/* facts */
+
+#facts{
+background-image: url(https://media.istockphoto.com/id/658421474/photo/colorful-umbrellas.jpg?b=1&s=612x612&w=0&k=20&c=AiTZwm6jWp5eaRZltddZBeSSD6AYwltj0r0m-MwuTxM=);
+position: relative;
+background-position: center;
+background-size: cover;
+/* height: fit-content; */
+background-attachment: fixed;
+}
+
+.facts .overlay{
+
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background:blue;
+    opacity: 0.2;
+}
+
+.facts .content{
+padding: 8rem 0;
+
+}
+
+.facts .icon{
+font-size: 6rem ;
+color:blue;
+
+}
+
+.facts .counter {
+color: white;
+    font-size: 30px;
+}
+
+.facts .font{
+font-size: 20px;
+color: white;
+}
+
+.facts .text{
+    font-size: 30px;
+    color: white;
+
+}
+
+/* portfolio section */
+
+
+.portfolio .icon {
+
+    font-size: 2.7rem;
+}
+
+.portfolio .icon i:hover {
+    /* font-size: 3rem; */
+    color: darkblue;
+
+}
+
+.portfolio img:hover {
+
+    transform: scale(1.2);
+}
+
+.portfolio .image-container {
+    overflow: hidden;
+
+}
+
+.portfolio .img {
+    transition: transform 0.5s;
+
+}
+
+
+/* BLOG SECTION */
+
+#Blog .card-title{
+text-align: center;
+    color:white;
+    background-color: #0078ff;
+    width: 25%;
+    border-radius: 5px;
+  margin-left: 40%;
+  margin-top: -28px;
+}
+
+
+/* CLIENTS SECTION */
+
+.clients {
+    padding: 7rem 0;
+    background-image: url(img/arora.jpg);
+
+}
+
+.clients img {
+    border-radius: 50%;
+
+}
+/* 
+.clients .swiper mySwiper{
+background: none;
+
+} */
+
+
+
+/* contact section */
+
+.contact .icon {
+    font-size: 20px;
+    padding: 5px;
+    border: 5px solid #0078ff;
+    border-radius: 50%;
+    color: black;
+}
+
+
+
+/* swiper css */
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
